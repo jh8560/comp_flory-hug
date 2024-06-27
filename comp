@@ -90,7 +90,7 @@ plt.plot(phiB_solutions, chi_values, label='phiB', color='#31a354', linestyle='-
 plt.scatter(phiC, chiC, color='red', label='Point (phiC, chiC)', s=100, marker='x')
 plt.xlabel('phi')
 plt.ylabel('chi')
-plt.title('Change of phiA and phiB with respect to chi for N = {}'.format(N))
+plt.title('Phase diagram for N = {}'.format(N))
 plt.legend()
 plt.grid(True)
 plt.show()
